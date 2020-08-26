@@ -1,0 +1,44 @@
+body {
+    background: $main_bg_color;
+    font-family: $main_font;
+    font-size: 18px;
+    line-height: 18px;
+    color: #111111;
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+  @media (min-width: $desktop-width) {
+    html {
+      overflow-x: hidden;
+    }
+  }
+  
+  @media (min-width: $tablet-width) {
+    html {
+      overflow-x: hidden;
+    }
+  }
