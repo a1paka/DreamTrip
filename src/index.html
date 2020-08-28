@@ -10,152 +10,201 @@
 
 <body>
 
-  <header>
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>Posts</li>
-        <li>About me</li>
-        <li></li>
-        <li>Article</li>
-        <li>Contacts</li>
-        <li>Gallery</li>
+  <header class="page-header">
+    <h1 class="page-header__name">Dream Trip</h1>
+    <nav class="main-nav main-nav--closed main-nav--nojs">
+      <button class="main-nav__toggle"><span class="visually-hidden">Открыть меню</span></button>
+      <ul class="main-nav__list site-list">
+        <li class="site-list__item"><a href="#">Home</a></li>
+        <li class="site-list__item"><a href="#">Posts</a></li>
+        <li class="site-list__item"><a href="#">About me</a></li>
+        <li class="site-list__item"><a href="#">Article</a></li>
+        <li class="site-list__item"><a href="#">Contacts</a></li>
+        <li class="site-list__item"><a href="#">Gallery</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <section>
-      <h1>Travelling</h1>
-      <p>How to increase your productivity with a Music</p>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…</p>
-      <p>Posted by Eugenia, on July  24, 2019</p>
-      <button>Continue</button>
+  <main class="page-main">
+    <section class="page-main__posts">
+      <section class="page-main__main-post">
+        <h3 class="page-main__main-header">Travelling</h3>
+      <img class="page-main__main-pic" src="/src/img/MainPic.png" width="240" height="50" alt="Картинка главного поста">
+      <blockquote class="page-main__quote">«Nothing develops the mind like travel»</blockquote> <cite class="page-main__cite">Émile Zola</cite>
+      <p class="page-main__post-text">Travelling to new and interesting countries has always attracted people. It’s like a part of routine. People work for some time and then they travel during their holidays. The choice of a place depends on their interests and wishes, on their finances and the length of the holidays.</blockquote>
+      <p class="page-main__post-date">Posted by Eugenia, on <time datetime="2015-11-18">november 18, 2015</time></p>
+      <a class="page-main--button" href="#">Continue reading</a>
     </section>
 
-    <section>
-      <ul>
-        <li>
-          <p>Bridge</p>
-          <p>How to increase your productivity with a Music</p>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…</p>
-          <p>Posted by Eugenia, on July  24, 2019</p>
-          <button>Continue</button>
-        </li>
-        <li>
-          <p>Bridge</p>
-          <p>How to increase your productivity with a Music</p>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…</p>
-          <p>Posted by Eugenia, on July  24, 2019</p>
-          <button>Continue</button>
-        </li>
-        <li>
-          <p>Bridge</p>
-          <p>How to increase your productivity with a Music</p>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…</p>
-          <p>Posted by Eugenia, on July  24, 2019</p>
-          <button>Continue</button>
-        </li>
-        <li>
-          <p>Bridge</p>
-          <p>How to increase your productivity with a Music</p>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…</p>
-          <p>Posted by Eugenia, on July  24, 2019</p>
-          <button>Continue</button>
-        </li>
-        <li>
-          <p>Bridge</p>
-          <p>How to increase your productivity with a Music</p>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…</p>
-          <p>Posted by Eugenia, on July  24, 2019</p>
-          <button>Continue</button>
-        </li>
-        <li>
-          <p>Bridge</p>
-          <p>How to increase your productivity with a Music</p>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…</p>
-          <p>Posted by Eugenia, on July  24, 2019</p>
-          <button>Continue</button>
-        </li>
-      </ul>
+    <section class="page-main__other-posts">
+      <img class="page-main__pics" src="/src/img/Bridge.png" width="220" height="50" alt="Картинка Моста">
+          <h3 class="page-main__post-header">Wonders of Nature</h3>
+          <p class="post-text__main">It is a very great possibility to witness such wonders of nature.</p>
+          <p class="page-main__post-text">Nature sometimes creates unique objects that can amaze by their beauty even the most sophisticated and skeptical people. Probably that is why regularly varied organizations, such as TV-channel BBC and the company CNN, generate lists of the most interesting miraculous objects worldwide.</p>
+          <p class="page-main__post-date">Posted by Maxim, on <time datetime="2015-07-120">july 20, 2015</time></p>
+          <a class="page-main--button" href="#">Continue reading</a>
+      </section>
+      <section class="page-main__other-posts post-text">
+        <img class="page-main__pics" src="/src/img/Water.png" width="220" height="50" alt="Картинка Воды">
+          <h3 class="page-main__post-header">Water</h3>
+          <p class="post-text__main">Travelling By Sea</p>
+          <p class="page-main__post-text">There are numerous means of travelling, but many people choose to travel by sea. I’m sure they have a number of reasons for that. First of all, it is a pleasant feeling to be in boundless expanse of the sea or ocean. Secondly, travelling by sea is comfortable and speedy.</p>
+          <p class="page-main__post-date">Posted by Egor, on <time datetime="2017-10-15">october 15, 2017</time></p>
+          <a class="page-main--button" href="#">Continue reading</a>
+      </section>
+      <section class="page-main__other-posts">
+        <img class="page-main__pics" src="/src/img/Bridge2.png" width="220" height="50" alt="Картинка Моста">
+          <h3 class="page-main__post-header">Tourism</h3>
+          <p class="post-text__main">Tourism is becoming more and more popular. </p>
+          <p class="page-main__post-text">There are so many means of travelling around the world, such as jet-planes, express trains, cruise liners, comfortable buses, personal cars and else. We can choose what’s best for us. I’m glad that tourism has become more available because I love travelling.</p>
+          <p class="page-main__post-date">Posted by Ann, on <time datetime="2016-05-18">may 18, 2016</time></p>
+          <a class="page-main--button" href="#">Continue reading</a>
+      </section>
+      <section class="page-main__other-posts">
+        <img class="page-main__pics" src="/src/img/Forest.png" width="220" height="50" alt="Картинка Леса">
+          <h3 class="page-main__post-header">Forest</h3>
+          <p class="post-text__main">How to increase your productivity with a forest wibe</p>
+          <p class="page-main__post-text">Forests are also very good for the environment. The trees and flowers give oxygen to the atmosphere that makes the air much cleaner to breathe. The forest is also a source of food. We can pick up mushrooms and different kinds of berries there. The flowers and trees are very beautiful.</p>
+          <p class="page-main__post-date">Posted by Lena, on <time datetime="2020-04-30">april 30, 2020</time></p>
+          <a class="page-main--button" href="#">Continue reading</a>
+      </section>
+      <section class="page-main__other-posts">
+        <img class="page-main__pics" src="/src/img/Forest2.png" width="220" height="50" alt="Картинка Леса">
+          <h3 class="page-main__post-header">Silence</h3>
+          <p class="post-text__main">Silense in forest</p>
+          <p class="page-main__post-text">The forest is a place filled with trees and animals of all different kinds. There are many things that we can do in the forest. Many people go hiking through the woods, there are special paths that lead to the interesting parts. Many of these special places are lakes or fields for example. At the lakes people usually go fishing, or swimming, and sometimes use small boats. In the forest it is possible to go hunting and to watch for some kinds of animals.</p>
+          <p class="page-main__post-date">Posted by Andrew, on <time datetime="2015-11-18">november 18, 2018</time></p>
+          <a class="page-main--button" href="#">Continue reading</a>
+      </section>
+      <section class="page-main__other-posts">
+        <img class="page-main__pics" src="/src/img/Nature.png" width="220" height="50" alt="Картинка Природы">
+          <h3 class="page-main__post-header">Nature</h3>
+          <p class="post-text__main">Nature is one of the broadest concepts.</p>
+          <p class="page-main__post-text">It includes the light of distant stars, vast expanses of the oceans, forests and meadows, roaring waterfalls, etc. The role of nature in the society has always been significant. People are literally dependent on it. At the same time nature depends on people and their behavior too.</p>
+          <p class="page-main__post-date">Posted by Alex, on <time datetime="2018-06-17">june 17, 2018</time></p>
+          <a class="page-main--button" href="#">Continue reading</a>
+      </section>
     </section>
 
-    <section>
-      <h1>travelling | lake</h1>
-      <p>How to increase your productivity with a Music</p>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…</p>
-      <p>Posted by Eugenia, on July  24, 2019</p>
+    <section class="page-main__posts">
+      <section class="page-main__main-post">
+        <h3 class="page-main__main-header">Travelling | Lake</h3>
+      <img class="page-main__main-pic" src="/src/img/Lake.png" width="220" height="50" alt="Картинка реки">
+      <p>Travelling to new and interesting countries has always attracted people. It’s like a part of routine. People work for some time and then they travel during their holidays. The choice of a place depends on their interests and wishes, on their finances and the length of the holidays.</blockquote>
+      <p class="page-main__post-date">Posted by Eugenia, on <time datetime="2015-11-18">18 november 2015</time></p>
+      <a class="page-main--button" href="#">Continue reading</a>
     </section>
 
-    <section>
-      <ul>
-        <li>
-          <p>Bridge</p>
-          <p>How to increase your productivity with a Music</p>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…</p>
-          <p>Posted by Eugenia, on July  24, 2019</p>
-          <button>Continue</button>
-        </li>
-        <li>
-          <p>Bridge</p>
-          <p>How to increase your productivity with a Music</p>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…</p>
-          <p>Posted by Eugenia, on July  24, 2019</p>
-          <button>Continue</button>
-        </li>
-        <li>
-          <p>Bridge</p>
-          <p>How to increase your productivity with a Music</p>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…</p>
-          <p>Posted by Eugenia, on July  24, 2019</p>
-          <button>Continue</button>
-        </li>
-      </ul>
+    <section class="page-main__other-posts">
+      <img class="page-main__pics" src="/src/img/Park.png" width="220" height="50" alt="Картинка парка">
+        <h3 class="page-main__post-header">Forest</h3>
+        <p class="post-text__main">How to increase your productivity with a forest wibe</p>
+        <p>Forests are also very good for the environment. The trees and flowers give oxygen to the atmosphere that makes the air much cleaner to breathe. The forest is also a source of food. We can pick up mushrooms and different kinds of berries there. The flowers and trees are very beautiful.</p>
+        <p class="page-main__post-date">Posted by Lena, on <time datetime="2020-04-30">april 30, 2020</time></p>
+        <a class="page-main--button" href="#">Continue reading</a>
+    </section>
+    <section class="page-main__other-posts">
+      <img class="page-main__pics" src="/src/img/Forest3.png" width="220" height="50" alt="Картинка Леса">
+        <h3 class="page-main__post-header">Forest</h3>
+        <p class="post-text__main">How to increase your productivity with a forest wibe</p>
+        <p>Forests are also very good for the environment. The trees and flowers give oxygen to the atmosphere that makes the air much cleaner to breathe. The forest is also a source of food. We can pick up mushrooms and different kinds of berries there. The flowers and trees are very beautiful.</p>
+        <p class="page-main__post-date">Posted by Lena, on <time datetime="2020-04-30">april 30, 2020</time></p>
+        <a class="page-main--button" href="#">Continue reading</a>
+    </section>
+    <section class="page-main__other-posts">
+      <img class="page-main__pics" src="/src/img/Nature2.png" width="220" height="50" alt="Картинка природы">
+        <h3 class="page-main__post-header">Forest</h3>
+        <p class="post-text__main">How to increase your productivity with a forest wibe</p>
+        <p>Forests are also very good for the environment. The trees and flowers give oxygen to the atmosphere that makes the air much cleaner to breathe. The forest is also a source of food. We can pick up mushrooms and different kinds of berries there. The flowers and trees are very beautiful.</p>
+        <p class="page-main__post-date">Posted by Lena, on <time datetime="2020-04-30">april 30, 2020</time></p>
+        <a class="page-main--button" href="#">Continue reading</a>
+    </section>
     </section>
 
-    <section>
-      <img> <p>Lizzie</p>
-      <p>traveller</p>
-      <p>Hi, I'm Lizzie Rose. Travelling is the way I express my creative side to the world…</p>
-      <p>view on</p>
+    <section class="main-menu">
+      <div class="main-menu__wrap">
+      <div class="user-description">
+        <div class="user-description__wrap">
+          <img class="user-description__avatar" src="/src/img/Avatar.png" alt="Аватарка пользователя"> 
+          <div class="user-description__about">
+            <h3 class="user-description__name">Lizzie Ross</h3>
+            <p class="user-description__proffesion">traveller</p>
+          </div>
+        </div>
+      <p class="user-description__deskr">Hi, I'm Lizzie Rose. Travelling is the way I express my creative side to the world…</p>
+      <div class="user-description__contacts-wrap">
+        <p class="user-description__contacts">View on:</p>
+          <a class="user-description__contacts--fb" href="#">
+            <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0.5" y="0.5" width="33" height="33" stroke="#E5E5E5"/>
+            <path d="M25 12.539C24.4115 12.7999 23.7784 12.9764 23.1145 13.0552C23.7924 12.6491 24.3126 12.0067 24.5581 11.2399C23.9238 11.616 23.221 11.8889 22.4736 12.036C21.8748 11.3985 21.0217 11 20.077 11C18.2644 11 16.7944 12.4697 16.7944 14.2819C16.7944 14.5391 16.8235 14.7895 16.8798 15.0298C14.1517 14.893 11.7328 13.5865 10.1136 11.6004C9.83111 12.085 9.66905 12.6491 9.66905 13.2505C9.66905 14.3888 10.249 15.3938 11.1293 15.9822C10.5915 15.9653 10.085 15.8177 9.64261 15.5712C9.64237 15.5852 9.64237 15.5991 9.64237 15.6128C9.64237 17.203 10.7744 18.5293 12.2757 18.8306C12.0006 18.906 11.71 18.9459 11.4111 18.9459C11.1991 18.9459 10.9937 18.9256 10.7934 18.8874C11.2111 20.1909 12.4231 21.1398 13.8599 21.1665C12.7362 22.0469 11.321 22.5714 9.78264 22.5714C9.51825 22.5714 9.25631 22.556 9 22.5254C10.4519 23.4569 12.1778 24 14.0315 24C20.0694 24 23.3713 18.9992 23.3713 14.662C23.3713 14.5198 23.3681 14.3781 23.3618 14.2376C24.0036 13.775 24.5601 13.1971 25 12.539Z" fill="#666666"/>
+            </svg>
+          </a>
+          <a class="user-description__contacts--pin" href="#">
+            <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.5" y="0.5" width="33" height="33" stroke="#E5E5E5"/>
+              <path d="M21.4437 10.6396C20.3928 9.58231 18.9384 9 17.3484 9C14.9198 9 13.426 10.0433 12.6006 10.9185C11.5833 11.997 11 13.4291 11 14.8476C11 16.6286 11.7109 17.9956 12.9013 18.5042C12.9813 18.5385 13.0617 18.5558 13.1405 18.5558C13.3916 18.5558 13.5906 18.3836 13.6596 18.1074C13.6998 17.9489 13.7929 17.5579 13.8334 17.3882C13.92 17.053 13.85 16.8918 13.661 16.6584C13.3167 16.2315 13.1564 15.7266 13.1564 15.0696C13.1564 13.118 14.5431 11.0439 17.1132 11.0439C19.1524 11.0439 20.4192 12.2585 20.4192 14.2137C20.4192 15.4475 20.1656 16.5901 19.705 17.4312C19.3849 18.0157 18.8221 18.7123 17.958 18.7123C17.5843 18.7123 17.2487 18.5515 17.0369 18.2711C16.8368 18.006 16.7709 17.6635 16.8513 17.3066C16.9422 16.9034 17.0662 16.4827 17.1861 16.0761C17.4049 15.3334 17.6117 14.6319 17.6117 14.0723C17.6117 13.115 17.0502 12.4718 16.2145 12.4718C15.1524 12.4718 14.3203 13.6023 14.3203 15.0454C14.3203 15.7532 14.4998 16.2825 14.5811 16.4858C14.4473 17.0799 13.6521 20.6117 13.5013 21.2778C13.4141 21.6665 12.8887 24.7373 13.7583 24.9822C14.7353 25.2573 15.6086 22.2666 15.6975 21.9286C15.7696 21.6537 16.0216 20.6145 16.1761 19.9756C16.6478 20.4517 17.4072 20.7736 18.1461 20.7736C19.5392 20.7736 20.792 20.1166 21.6738 18.9239C22.529 17.767 23 16.1546 23 14.3838C23 12.9995 22.4327 11.6347 21.4437 10.6396Z" fill="#666666"/>
+              </svg>
+          </a>
+          <a class="user-description__contacts--google" href="#">
+            <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.5" y="0.5" width="33" height="33" stroke="#E5E5E5"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.0291 11.02C9.74935 11.0602 6.87946 14.1571 7.0039 17.5083C6.94924 20.2203 8.77578 22.8084 11.2874 23.6521C13.6541 24.4653 16.5632 23.857 18.1379 21.7842C19.2878 20.3321 19.5488 18.3959 19.4243 16.5867C17.6226 16.5702 15.8209 16.5733 14.0213 16.5763C13.7968 16.5767 13.5722 16.5771 13.3478 16.5774C13.3448 17.3144 13.3478 18.0486 13.3508 18.7856L13.3508 18.7898C14.0219 18.8088 14.6932 18.8125 15.3644 18.8163C15.9067 18.8193 16.449 18.8223 16.9912 18.8334C16.6849 19.907 15.9869 20.9061 14.9282 21.2939C12.8835 22.2155 10.2746 21.0115 9.63122 18.8176C8.85434 16.7171 10.1257 14.1818 12.225 13.5704C13.5266 13.102 14.8675 13.6294 15.9811 14.3215C16.5451 13.7814 17.0731 13.2046 17.592 12.621C16.327 11.5381 14.7007 10.8742 13.0291 11.02ZM25.1735 14.7154H23.3686C23.3623 15.333 23.3563 15.9537 23.3532 16.5707C22.7468 16.5769 22.1431 16.58 21.5393 16.583L21.5391 16.583V18.4324C21.6213 18.4329 21.7035 18.4333 21.7859 18.4338C22.3081 18.4366 22.8319 18.4395 23.3532 18.4451C23.3565 18.7683 23.3581 19.0914 23.3597 19.4149C23.3611 19.7097 23.3626 20.0048 23.3653 20.3006C23.5652 20.3006 23.7656 20.3003 23.9661 20.3C24.368 20.2993 24.7709 20.2986 25.1735 20.3006L25.1742 20.1541C25.1772 19.5827 25.1803 19.0138 25.1858 18.442L27 18.4327V16.5833L26.991 16.5833C26.3902 16.5802 25.7864 16.5771 25.1858 16.571C25.1842 16.2624 25.1819 15.9531 25.1796 15.6437C25.1774 15.334 25.1751 15.0243 25.1735 14.7154Z" fill="#666666"/>
+              </svg>
+          </a>
+          <a class="user-description__contacts--inst" href="#">
+            <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.5" y="0.5" width="33" height="33" stroke="#E5E5E5"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.625 8H20.375C23.4811 8 26 10.5189 26 13.625V20.375C26 23.4811 23.4811 26 20.375 26H13.625C10.5189 26 8 23.4811 8 20.375V13.625C8 10.5189 10.5189 8 13.625 8ZM20.375 24.3125C22.5463 24.3125 24.3125 22.5463 24.3125 20.375V13.625C24.3125 11.4537 22.5463 9.6875 20.375 9.6875H13.625C11.4537 9.6875 9.6875 11.4537 9.6875 13.625V20.375C9.6875 22.5463 11.4537 24.3125 13.625 24.3125H20.375ZM12.5 17C12.5 14.5149 14.5149 12.5 17 12.5C19.4851 12.5 21.5 14.5149 21.5 17C21.5 19.4851 19.4851 21.5 17 21.5C14.5149 21.5 12.5 19.4851 12.5 17ZM14.1875 17C14.1875 18.5503 15.4497 19.8125 17 19.8125C18.5503 19.8125 19.8125 18.5503 19.8125 17C19.8125 15.4486 18.5503 14.1875 17 14.1875C15.4497 14.1875 14.1875 15.4486 14.1875 17ZM21.875 13.25C22.4963 13.25 23 12.7463 23 12.125C23 11.5037 22.4963 11 21.875 11C21.2537 11 20.75 11.5037 20.75 12.125C20.75 12.7463 21.2537 13.25 21.875 13.25Z" fill="#666666"/>
+              </svg>              
+          </a>
+    </div>
       <img><img><img>
+      </div>
 
-      <h2>Popular</h2>
-      <img>
-      <p>One of Saturn’s largest rings may be newer than anyone</p>
-      <img>
-      <p>One of Saturn’s largest rings may be newer than anyone</p>
-      <img>
-      <p>One of Saturn’s largest rings may be newer than anyone</p>
+      <div class="main-menu__popular popular-post">
+      <h2 class="popular-post__header">Most popular</h2>
+      <img class="popular-post__pic" src="./src/img/Fogg.png" width="210" height="50" alt="Картинка тумана">
+      <p class="popular-post__text">One of Saturn’s largest rings may be newer than anyone</p>
+      <img class="popular-post__pic" src="./src/img/Bike.png" width="210" height="50" alt="Картинка байка">
+      <p class="popular-post__text">One of Saturn’s largest rings may be newer than anyone</p>
+      <img class="popular-post__pic" src="./src/img/Mountain.png" width="210" height="50" alt="Картинка гор">
+      <p class="popular-post__text">One of Saturn’s largest rings may be newer than anyone</p>
+      </div>
 
-      <h2>Categories</h2>
-      <ul>
-        <li>Water</li>
-        <li>Flowers</li>
-        <li>Forest</li>
-        <li>Mountains</li>
-      </ul>
+      <div class="main-menu__comm comments-block">
+      <h2 class="comments-block__header">Comments</h2>
+      <p class="comments-block__text-block"><b class="comments-block__b">Movia Karla</b> on <b class="comments-block__b">Travelling trips</b> – Stop The World I Wanna Get Off With You – Soundcloud Post</p>
+      <p class="comments-block__text-block"><b class="comments-block__b">Movia Karla</b> on <b class="comments-block__b">Travelling trips</b> – Stop The World I Wanna Get Off With You – Soundcloud Post</p>
+      <p class="comments-block__text-block"><b class="comments-block__b">Movia Karla</b> on <b class="comments-block__b">Travelling trips</b> – Stop The World I Wanna Get Off With You – Soundcloud Post</p>
+      <p class="comments-block__text-block"><b class="comments-block__b">Movia Karla</b> on <b class="comments-block__b">Travelling trips</b> – Stop The World I Wanna Get Off With You – Soundcloud Post</p>
+      </div>
 
-      <h2>Comments</h2>
-      <p>Movia Karla on Travelling trips – Stop The World I Wanna Get Off With You – Soundcloud Post</p>
-      <p>Movia Karla on Travelling trips – Stop The World I Wanna Get Off With You – Soundcloud Post</p>
-      <p>Movia Karla on Travelling trips – Stop The World I Wanna Get Off With You – Soundcloud Post</p>
-      <p>Movia Karla on Travelling trips – Stop The World I Wanna Get Off With You – Soundcloud Post</p>
-
-      <h2>Tegs</h2>
+      <div class="main-menu__tags tags">
+      <h2 class="tags__header">Tags</h2>
+        <div class="tags__wrap">
+          <a class="tags__tag-name" href="#">Minimal</a>
+          <a class="tags__tag-name" href="#">Art</a>
+          <a class="tags__tag-name" href="#">Trend</a>
+          <a class="tags__tag-name" href="#">Culture</a>
+          <a class="tags__tag-name" href="#">Seo</a>
+          <a class="tags__tag-name" href="#">Nature</a>
+        </div>
+    </div>
+    </div>
     </section>
   </main>
 
-  <footer>
-    <p>@2019 Logwork. All Right Reserved.</p>
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>Posts</li>
-        <li>About me</li>
-      </ul>
+  <footer class="page-footer">
+    <p class="page-footer__inf">@2019 Logwork. All Right Reserved.</p>
+    <nav class="page-footer__nav-wrap">
+      <div class="page-footer__nav">
+        <a class="page-footer__nav-page" href="#">Home</a>
+        <a class="page-footer__nav-page" href="#">Posts</a>
+        <a class="page-footer__nav-page" href="#">About me</a>
+      </div>
     </nav>
-    <p>Terms / Privacy police</p>
+    <p class="page-footer__priv">Terms / Privacy police</p>
   </footer>
 
   <script src = '/dist/app.js'></script>

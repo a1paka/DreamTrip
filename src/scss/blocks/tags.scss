@@ -1,0 +1,14 @@
+.tags {
+    &__header {
+        text-transform: uppercase;
+        color: $another_text_color;
+        font-size: 16px;
+    }
+
+    &__tag-name {
+        display: inline-block;
+        background-color: #f5f5f5;
+        padding: 7px;
+        margin: 10px 0 0 10px;
+    }
+}

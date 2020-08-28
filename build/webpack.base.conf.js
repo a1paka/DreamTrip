@@ -13,6 +13,9 @@ module.exports = {
     externals: {
         paths: PATHS
     },
+    performance: {
+        hints: false
+    },
     entry: {
         app: PATHS.src
     },

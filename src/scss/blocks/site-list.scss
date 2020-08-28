@@ -1,0 +1,14 @@
+.site-list {
+    text-align: center;
+    display: block;
+
+    &__item {
+        border-top: 1px dotted #171717;
+        padding-top: 2px;
+        margin: auto;
+    }
+
+    &__item a {
+        color: $another_text_color;
+    }
+}

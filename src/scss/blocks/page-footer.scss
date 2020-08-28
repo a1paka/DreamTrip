@@ -1,0 +1,27 @@
+.page-footer {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+
+    &__inf {
+        margin: 0;
+        padding: 10px 20px 10px 20px;
+    }
+
+    &__priv {
+        margin: 10px 0 0 0;
+        padding: 0 20px 0 20px;
+    }
+
+    &__nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0 40px 0 40px;
+    }
+    
+    &__nav-page {
+        color: #e0e0e0;
+    }
+}

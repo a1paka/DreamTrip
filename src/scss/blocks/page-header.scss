@@ -1,0 +1,12 @@
+.page-header {
+    display: flex;
+    flex-direction: column;
+
+    &__name {
+        color: $another_text_color;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+}

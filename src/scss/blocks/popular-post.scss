@@ -1,0 +1,19 @@
+.popular-post {
+    &__header {
+        text-transform: uppercase;
+        color: $another_text_color;
+        font-size: 16px;
+    }
+
+    &__pic {
+        display: block;
+        padding: 0;
+        margin: auto;
+    }
+
+    &__text {
+        font-size: 16px;
+        color: $another_text_color;
+        margin: 0 0 20px 15px;
+    }
+}

@@ -1,0 +1,68 @@
+.page-main {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px dotted #171717;
+    padding-top: 10px;
+
+    &__main-header {
+        text-transform: uppercase;
+        color: $another_text_color;
+        text-align: center;
+        margin: 0;
+    }
+
+    &__post-header {
+        color: $another_text_color;
+        text-transform: uppercase;
+        text-align: right;
+    }
+
+    &__posts {
+        padding: 20px;
+    }
+
+    &__quote, &__cite {
+        color: $another_text_color;
+    }
+
+    &__main-pic {
+        display: block;
+        padding: 0;
+        margin: auto;
+    }
+
+    &__main-post {
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        padding: 20px;
+    }
+
+    &__other-posts {
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    &__post-date {
+        font-size: 12px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    &__pics {
+        display: block;
+        padding: 0;
+        margin: auto;
+    }
+
+    &__post-text {
+        color: $main_text_color;
+    }
+
+    &--button {
+        background-color: #171717;
+        color: white;
+        padding: 5px;
+    }
+}

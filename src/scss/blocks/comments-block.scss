@@ -1,0 +1,16 @@
+.comments-block {
+    &__header {
+        text-transform: uppercase;
+        color: $another_text_color;
+        font-size: 16px;
+    }
+
+    &__b {
+        color: $another_text_color;
+    }
+
+    &__text-block {
+        border: 1px dotted #e5e5e5;
+        padding: 10px;
+    }
+}
