@@ -12,3 +12,15 @@
         color: $another_text_color;
     }
 }
+
+@media (min-width: $tablet-width) {
+    .site-list {
+        text-align: right;
+        margin: 10px 0 0 0;
+        
+        &__item {
+            margin: 0 0 0 39px;
+            border: none;
+        }
+    }
+}

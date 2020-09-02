@@ -19,7 +19,6 @@
         cursor: pointer;
         top: 0;
         left: 0;
-        // z-index: 2;
     }
 }
 
@@ -89,6 +88,22 @@
   
     .main-nav--nojs .site-list__item {
       display: block;
+    }
+  }
+
+  @media (min-width: $tablet-width) {
+    .main-nav {
+      margin: auto;
+
+      &__toggle {
+        display: none;
+      }
+
+      &__list {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+      }
     }
   }
   

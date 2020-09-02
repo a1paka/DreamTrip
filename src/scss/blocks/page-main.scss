@@ -16,6 +16,12 @@
         text-transform: uppercase;
         text-align: right;
     }
+    
+    &__text {
+        font-size: 16px;
+        line-height: 26px;
+        color: $another_text_color;
+    }
 
     &__posts {
         padding: 20px;
@@ -38,6 +44,7 @@
     }
 
     &__other-posts {
+        position: relative;
         background-color: white;
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
         padding: 20px;
@@ -60,9 +67,53 @@
         color: $main_text_color;
     }
 
-    &--button {
-        background-color: #171717;
-        color: white;
-        padding: 5px;
+    &__post-header-text {
+        color: $another_text_color;
+    }
+
+    &__button {
+        &--main, &--another {
+            background-color: #171717;
+            color: white;
+            padding: 5px;
+        }
+    }
+}
+
+@media (min-width: $tablet-width) {
+    .page-main {
+        width: 100%;
+        margin: auto;
+
+        &__other-posts {
+            width: 300px;
+        }
+
+        &__posts-wrap {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        &__button {
+            &--main {
+                padding: 10px;
+            }
+
+            &--another {
+                display: block;
+                position: absolute;
+                text-align: center;
+                padding: 10px;
+                width: 278px;
+                bottom: 0;
+                margin: 40px 0 20px 0;
+            }
+        }
+        
+        &__post-date {
+            margin-bottom: 60px;
+        }
     }
 }
