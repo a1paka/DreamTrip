@@ -14,3 +14,11 @@
         padding: 10px;
     }
 }
+
+@media (min-width: $tablet-width) {
+    .comments-block {
+        width: 200px;
+        padding-left: 10px;
+        border-left: 1px solid #e5e5e5;
+    }
+}

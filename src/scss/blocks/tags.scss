@@ -12,3 +12,10 @@
         margin: 10px 0 0 10px;
     }
 }
+
+@media (min-width: $tablet-width) {
+    .tags {
+        margin-top: 40px;
+        border-top: 2px solid #e5e5e5;
+    }
+}
